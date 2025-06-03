@@ -1,3 +1,6 @@
+Fork of original [Venetian-Blinds-Control](https://github.com/bruxy70/Venetian-Blinds-Control).
+Working with Esphome 2025.5 and newer.
+
 # Venetian-Blinds-Control
 
 This is for ESP microcontrollers to control time based venetian blinds - controlling the action (open/close/stop), position (0-100) and the tilt (0-100).
@@ -16,7 +19,7 @@ This uses a custom cover controller. Similar to the time based cover, but with a
 external_components:
   - source:
       type: git
-      url: https://github.com/bruxy70/Venetian-Blinds-Control
+      url: https://github.com/boneIO-eu/Venetian-Blinds-Control
       ref: master
     components: [venetian_blinds]
 ```
